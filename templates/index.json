@@ -12,9 +12,44 @@
     "main": {
       "type": "hello-world",
       "settings": {}
+    },
+    "custom_section_aQ4tEh": {
+      "type": "custom-section",
+      "blocks": {
+        "group_n8qEnk": {
+          "type": "group",
+          "name": "t:general.column",
+          "settings": {
+            "layout_direction": "group--vertical",
+            "alignment": "flex-start",
+            "padding": 0
+          },
+          "blocks": {
+            "text_aadCUF": {
+              "type": "text",
+              "name": "t:general.text",
+              "settings": {
+                "text": "Text",
+                "text_style": "text--title",
+                "alignment": "left"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_aadCUF"
+          ]
+        }
+      },
+      "block_order": [
+        "group_n8qEnk"
+      ],
+      "name": "t:general.custom_section",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_aQ4tEh"
   ]
 }
